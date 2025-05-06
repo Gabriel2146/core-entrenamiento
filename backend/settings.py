@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'entrenamiento_db',
-        'USER': 'tu_usuario',
-        'PASSWORD': 'tu_password',
+        'NAME': 'core_entrenamiento',
+        'USER': 'postgres',
+        'PASSWORD': '2146',
         'HOST': 'localhost',
         'PORT': '5432',
     }
